@@ -1,0 +1,19 @@
+/* inicializa los elemento HTML sin estilo */
+@tailwind base;
+/* Acceder a todas las clases de tailwind */
+@tailwind components;
+/* Acceder a todas las utilidades del proyecto */
+@tailwind utilities;
+/* @tailwind colors; */
+
+.Card{
+  @apply w-40 flex-none h-48 shadow-md rounded-lg overflow-hidden transition-all hover:-translate-y-4 hover:shadow-xl md:w-64 md:h-80
+}
+
+.Subtitulo{
+  @apply text-primary font-semibold text-2xl dark:text-white
+}
+
+.TrendingCard{
+  @apply w-full h-96 rounded-2xl bg-cover bg-center pl-6 pr-24 py-12 text-white md:text-right md:pr-12
+}
